@@ -1,0 +1,21 @@
+{
+  "short_name": "SleepTrack",
+  "name": "Sleep Tracker App",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d1321",
+  "theme_color": "#4ecdc4",
+  "orientation": "portrait"
+}
