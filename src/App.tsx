@@ -14,9 +14,9 @@ const App: React.FC = () =>  {
      <Header />
      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tracker" element={<SleepTimer />} />
-        <Route path="/stats" element={<Stats />} />
+        <Route path="/sleep-tracker" element={<Home />} />
+        <Route path="/sleep-tracker/tracker" element={<SleepTimer />} />
+        <Route path="/sleep-tracker/stats" element={<Stats />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

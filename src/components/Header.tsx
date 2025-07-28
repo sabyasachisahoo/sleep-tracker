@@ -7,9 +7,9 @@ const Header: React.FC = () => {
       <div className="header-content">
         <h1>🌙 Sleep Tracker</h1>
         <nav>
-          <a href="/">Home</a>
-          <a href="/stats">Stats</a>
-          <a href="/tracker">Tracker</a>
+          <a href="/sleep-tracker">Home</a>
+          <a href="/sleep-tracker/stats">Stats</a>
+          <a href="/sleep-tracker/tracker">Tracker</a>
         </nav>
       </div>
     </header>

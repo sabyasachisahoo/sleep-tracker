@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   const navigate = useNavigate();
 
   const handleStartSleep = () => {
-    navigate('/tracker'); // Navigate to SleepTimer page or similar
+    navigate('/sleep-tracker/tracker'); // Navigate to SleepTimer page or similar
   };
 
   return (
