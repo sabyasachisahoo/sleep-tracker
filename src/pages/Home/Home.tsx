@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         <button onClick={handleStartSleep} className="start-btn">
           Start Sleep Session
         </button>
-        <a href="/stats" className="stats-link">
+        <a href="/sleep-tracker/stats" className="stats-link">
           View Sleep Stats →
         </a>
       </main>
